@@ -91,7 +91,6 @@ nav a:hover {
 .services {
     height: 70vh;
     background: linear-gradient(135deg,#112840 100%, #0A1A2F 60%,);
-    display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 40px;
@@ -100,10 +99,23 @@ nav a:hover {
 }
 
 .services .proyects {
-    height: 100px;
-    width: 100px;
     background-color: #112840;
+    margin-top: 10vh;
     padding: 100px 40px;
+}
+
+.proyects {
+    display: flex;
+    justify-content: center;
+    border: solid 1px black;
+    gap: 50px;
+}
+
+.card-proyect {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
 }
 
 .about h2 {

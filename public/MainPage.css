@@ -91,11 +91,10 @@ nav a:hover {
 }
 
 .services {
-    height: 70vh;
+    min-height: 70vh;
     background: linear-gradient(135deg,#112840 100%, #0A1A2F 60%,);
     justify-content: center;
     align-items: center;
-    padding: 0 40px;
     text-align: center;
     padding-top: 20px;
 }
@@ -108,6 +107,12 @@ nav a:hover {
     background-color: #112840;
     margin-top: 10vh;
     padding: 100px 40px;
+    width: 100%;
+    height: auto;
+}
+
+.proyect-list .proyect-item {
+    list-style: none;
 }
 
 .proyect-list .proyect-item .proyect-link {
@@ -117,17 +122,57 @@ nav a:hover {
     padding: 18px;
     border-radius: 12px;
     text-decoration: none;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    border: 2px solid transparent;
+    transition: 0.4s ease;
 }
 
-.proyect-list .proyect-list .proyect-image {
+.proyect-list .proyect-item .proyect-link:hover {
+    border-color: aqua;
+}
+
+.proyect-list .proyect-link .proyect-image {
     width: 100%;
     aspect-ratio: 16 / 9;
     object-fit: cover;
     border-radius: 10px;
 }
 
-.proyect-link {
-    text-decoration: none;
+.proyect-list .proyect-link .badge {
+    color: cyan;
+    padding: 8px 16px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 16px 0 8px;
+    background-color: #007bff;
+    width: fit-content;
+    border-radius: 50px;
+}
+
+.proyect-list .proyect-link .proyect-title {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.proyect-list .proyect-link .proyect-button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 30px 0 5px;
+    border: solid #fff;
+    background: none;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.proyect-list .proyect-link:hover .proyect-button {
+    color: black;
+    background: #fff;
+}
+
+.section {
+    margin-top: 1px;
 }
 
 .about h2 {

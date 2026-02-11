@@ -94,20 +94,21 @@ nav a:hover {
     min-height: 70vh;
     background: linear-gradient(135deg,#112840 100%, #0A1A2F 60%,);
     justify-content: center;
+    justify-items: center;
     align-items: center;
     text-align: center;
     padding-top: 20px;
+    overflow: hidden;
 }
 
 .proyects-wrapper {
-    display: flex;
     justify-content: center;
     border: solid 1px black;
     gap: 50px;
     background-color: #112840;
     margin-top: 10vh;
     padding: 100px 40px;
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 
@@ -116,7 +117,7 @@ nav a:hover {
 }
 
 .proyect-list .proyect-item .proyect-link {
-    width: 200px;
+    user-select: none;
     display: block;
     background-color: #0c274b;
     padding: 18px;

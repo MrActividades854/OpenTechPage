@@ -6,6 +6,7 @@ new Swiper('.proyects-wrapper', {
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
+      dinamycBullets: true,
     },
   
     // Navigation arrows
@@ -22,7 +23,7 @@ new Swiper('.proyects-wrapper', {
         slidesPerView: 2
       },
       1024: {
-        slidesPerView: 2
+        slidesPerView: 3
       }
     }
   });

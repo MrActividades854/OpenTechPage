@@ -102,14 +102,19 @@ nav a:hover {
 }
 
 .proyects-wrapper {
-    justify-content: center;
-    border: solid 1px black;
+    width: 100%;
+    margin: 0 60px 35px;
+    padding: 20px 10px;
+    overflow: hidden;
+    /*border: solid 10px black;
     gap: 50px;
+    overflow: hidden;
     background-color: #112840;
     margin-top: 10vh;
     padding: 100px 40px;
     width: 100%;
     height: auto;
+    */
 }
 
 .proyect-list .proyect-item {
@@ -215,5 +220,22 @@ footer {
     border-top: 2px solid #00D2FF;
 }
 
- 
+.proyects-wrapper .pagination-bullet {
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+    background: #00D2FF;
+}
 
+.proyects-wrapper .pagination-bullet-active {
+    opacity: 1;
+}
+
+.proyects-wrapper .swiper-slide-button {
+    color: #00D2FF;
+    margin-top: -35px;
+}
+
+@media screen and (max-width: 768px) {
+
+}

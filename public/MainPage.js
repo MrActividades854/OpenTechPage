@@ -1,6 +1,6 @@
 new Swiper('.proyects-wrapper', {
     loop: true,
-    spaceBetween: 50,
+    spaceBetween: 25,
   
     // If we need pagination
     pagination: {
